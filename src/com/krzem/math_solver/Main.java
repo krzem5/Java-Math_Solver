@@ -45,10 +45,6 @@ public class Main{
 
 	private String _valid(String eq){
 		if (eq.length()==0){
-			String pad="";
-			for (int j=0;j<eq.length();j++){
-				pad+=" ";
-			}
 			return "  ERROR:\n    Invalid Symbol: Empty Equasion\n\n      ^";
 		}
 		int b=0;
